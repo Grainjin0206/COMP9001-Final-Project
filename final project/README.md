@@ -8,13 +8,13 @@ This is a simple Blackjack (21-point) game I built using Python. It runs entirel
 - Win the round → gain your bet amount. Lose → subtract it.
 - Reach 200, 300, or 500 points and you’ll unlock medals.
 - You can play as many rounds as you want in one session.
-- Your score, medals, and win/loss record are saved automatically, so you can pick up where you left off next time.
+- Your score, medals, 和 win/loss record are saved automatically, so you can pick up where you left off next time.
 
 ## 📁 Project structure
-├── card.py        # A single card
-├── deck.py        # Full deck logic
-├── player.py      # Hand, score, medals
-├── game.py        # Core gameplay flow
-├── storage.py     # Save/load logic
-├── main.py        # Run this to start
-└── savefile.json  # Save file
+  ├── card.py        # A single card
+  ├── deck.py        # Full deck logic
+  ├── player.py      # Hand, score, medals
+  ├── game.py        # Core gameplay flow
+  ├── storage.py     # Save/load logic
+  ├── main.py        # Run this to start
+  └── savefile.json  # Save file
